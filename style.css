@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+.container {
+    background-color: whitesmoke;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 24px;
+    color: black;
+}
+p {
+    font-size: 18px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#hasilPecahan {
+    font-size: 20px;
+    margin-top: 20px;
+}
